@@ -16,7 +16,11 @@ import csv
 from common.ip_proxy_1_1 import get_proxy
 
 from lxml import etree
+# 首先，pyforest支持大部分流行的数据科学库，比如pandas，numpy，matplotlib，seaborn，sklearn，tensorflow等等，以及常用的辅助库如os，sys，re，pickle等。
 
+
+# from pyforest import *
+# active_imports()
 from multiprocessing import Process
 
 defaultencoding = 'utf-8'
