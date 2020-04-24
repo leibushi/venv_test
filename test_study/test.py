@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/1 14:42
+# @Time    : 2020/4.txt/1.txt 14:42
 # @Author  : Mqz
 # @FileName: test.py
 import random

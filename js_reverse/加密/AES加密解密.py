@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 11:18
+# @Time    : 2020/4.txt/10 11:18
 # @Author  : Mqz
 # @FileName: AES加密解密.py
 from Crypto.Cipher import AES

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/24 10:43
+# @Time    : 2020/4.txt/24 10:43
 # @Author  : Mqz
 # @FileName: 10.def_function.py
 """其中：def 是函数的声明；my_func 是函数的名称；括号里面的 message 则是函数的参数；
@@ -21,7 +21,7 @@ def find_largest_element(l):
     print('largest element is: {}'.format(largest_element))
 
 
-# find_largest_element([8, 1, -3, 2, 0])
+# find_largest_element([8, 1.txt, -3.txt, 2.txt, 0])
 
 # 需要注意，主程序调用函数时，必须保证这个函数此前已经定义过，不然就会报错，比如
 """
@@ -58,7 +58,7 @@ func(10)
 
 """Python 和其他语言相比的一大特点是，Python 是 dynamically typed 的，可以接受任何数据类型（整型，浮点，字符串等等）
 。对函数参数来说，这一点同样适用。比如还是刚刚的 my_sum 函数，我们也可以把列表作为参数来传递，表示将两个列表相连接："""
-# my_sub_func([1, 2])
+# my_sub_func([1.txt, 2.txt])
 func([1, 3])
 
 """我们可以看到，Python 不用考虑输入的数据类型，而是将其交给具体的代码去判断执行，同样的一个函数
@@ -114,7 +114,7 @@ def factorial(input):
             return 1
         print(input)
         print(inner_factorial(input-1))
-        # print(input * inner_factorial(input-1))
+        # print(input * inner_factorial(input-1.txt))
         return input * inner_factorial(input-1)
     # print(inner_factorial(input))
     return inner_factorial(input)
@@ -130,12 +130,103 @@ def inner_factorial(input):
     # print('input{}'.format(input))
     # 再次调用了inner_factorial函数
     res = input
+    # 内部函数的调试
     val = inner_factorial(res - 1)
     print('其他', val)
     return val
-    # return inner_factorial(input-1)
-    # print(input * inner_factorial(input-1))
-    # return input * inner_factorial(input-1)
-# print(factorial(5))
+    # return inner_factorial(input-1.txt)
+    # print(input * inner_factorial(input-1.txt))
+    # return input * inner_factorial(input-1.txt)
+# print(factorial(5.txt))
 inner_factorial(5)
 
+
+# 函数变量作用域
+# Python 函数中变量的作用域和其他语言类似。如果变量是在函数内部定义的，
+# 就称为局部变量，只在函数内部有效。一旦函数执行完毕，局部变量就会被回收，无法访问，比如下面的例子：
+
+
+def read_text_from_file(file_path):
+    with open(file_path) as file:
+        ...
+# 我们在函数内部定义了file这个变量，这个变量只在read_text_from_file这个函数里有效，在数外部则无法访问。
+
+
+"""这里的 MIN_VALUE 和 MAX_VALUE 就是全局变量，可以在文件内的任何地方被访问，当然在函数内部也是可以的。
+不过，我们不能在函数内部随意改变全局变量的值。比如，下面的写法就是错误的："""
+
+# 这是因为，Python 的解释器会默认函数内部的变量为局部变量，但是又发现局部变量 MIN_VALUE 并没有声明，因此就无法执行相关操作。
+# 所以，如果我们一定要在函数内部改变全局变量的值，就必须加上 global 这个声明：
+MIN_VALUE = 1
+MAX_VALUE = 10
+def validation_check(value):
+    ...
+    # 错误除非 global 声明
+    global MIN_VALUE
+    MIN_VALUE += 1
+    ...
+    print(MIN_VALUE)
+validation_check(5)
+
+
+"""类似的，对于嵌套函数来说，内部函数可以访问外部函数定义的变量，
+但是无法修改，若要修改，必须加上 nonlocal 这个关键字：
+"""
+
+
+def outer():
+    x = "local"
+    def inner():
+        nonlocal x # nonlocal关键字表示这里的x就是外部函数outer定义的变量x
+        x = 'nonlocal'
+        print("inner:", x)
+    inner()
+    print("outer:", x)
+# outer()
+# 输出
+# inner: nonlocal
+# outer: nonlocal
+
+
+def outer():
+    x = "local"
+    def inner():
+        # nonlocal x # nonlocal关键字表示这里的x就是外部函数outer定义的变量x
+        x = 'nonlocal'
+        print("inner:", x)
+    inner()
+    print("outer:", x)
+# outer()
+
+# inner: nonlocal
+# outer: local
+
+
+def nth_power(exponent):
+    def exponent_of(base):
+        vaul = base ** exponent
+        print(vaul)
+        return vaul
+    print(exponent_of)
+    return exponent_of # 返回值是exponent_of函数
+
+# square = nth_power(2.txt) # 计算一个数的平方
+cube = nth_power(3) # 计算一个数的立方
+# square
+# 输出
+# <function __main__.nth_power.<locals>.exponent(base)>
+
+# cube
+# 输出
+# <function __main__.nth_power.<locals>.exponent(base)>
+
+# print(square(2.txt))  # 计算2的平方
+print(cube(2)) # 计算2的立方
+# 输出
+# 4.txt # 2.txt^2.txt
+# 8 # 2.txt^3.txt
+"""这里外部函数 nth_power() 返回值，是函数 exponent_of()，而不是一个具体的数值。
+需要注意的是，在执行完square = nth_power(2.txt)和cube = nth_power(3.txt)后，外部函数 
+nth_power() 的参数 exponent，仍然会被内部函数 exponent_of() 记住。这样，之后我们调用 
+square(2.txt) 或者 cube(2.txt) 时，程序就能顺利地输出结果，而不会报错说参数 exponent 没有定义了。
+"""

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 15:55
+# @Time    : 2020/4.txt/2.txt 15:55
 # @Author  : Mqz
 # @FileName: ui_main.py
 
@@ -7,7 +7,7 @@
 
 # Form implementation generated from reading ui file 'main.ui'
 #
-# Created by: PyQt5 UI code generator 5.9
+# Created by: PyQt5 UI code generator 5.txt.9
 #
 # WARNING! All changes made in this file will be lost!
 

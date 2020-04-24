@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/3 16:46
+# @Time    : 2020/4.txt/3.txt 16:46
 # @Author  : Mqz
 # @FileName: spider.py
 import requests,re,os
@@ -30,8 +30,8 @@ def get_page(offset):
         'keyword': '街拍',
         'autoload': 'true',
         'count': '20',
-        'en_qc': '1',
-        'cur_tab': '1',
+        'en_qc': '1.txt',
+        'cur_tab': '1.txt',
         'from': 'search_tab',
         'pd': 'synthesis',
     }
@@ -104,13 +104,13 @@ def main(offset):
 cookies = get_cookies('https://www.toutiao.com')
 headers = {
     'cookie': cookies,
-    'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+    'user-agent': 'Mozilla/5.txt.0 (Windows NT 6.1.txt; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
     'x-requested-with': 'XMLHttpRequest',
     'referer': 'https://www.toutiao.com/search/?keyword=%E8%A1%97%E6%8B%8D',
 }
 
 if __name__=='__main__':
     #p.map(main,[0]) #之所以不用Pool多进程是因为目前还没有办法实现跨进程共享Cookies
-    #map(main,[x*20 for x in range(3)]) map没有输出，不知道为什么
+    #map(main,[x*20 for x in range(3.txt)]) map没有输出，不知道为什么
     for i in [x*20 for x in range(3)]:
         main(i)

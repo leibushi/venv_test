@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 9:48
+# @Time    : 2020/4.txt/2.txt 9:48
 # @Author  : Mqz
 # @FileName: meiye_1.py
 import requests
@@ -15,7 +15,7 @@ headers = {
   'Accept': 'application/json, text/plain, */*',
   'Sec-Fetch-Dest': 'empty',
   'tk': 'eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6aGFveWwiLCJzdWIiOiIzNjgiLCJ1c2VyTmFtZSI6Inp5bF9kZXZfbXF6Iiwibmlja05hbWUiOiLmooXlhajmtLIiLCJjb3JwSWQiOjEwMDAwfQ.d2utbVHZHTFjWMQ5mTxPHOAKaPh2mJGhtARfTOcMrvA',
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36',
+  'User-Agent': 'Mozilla/5.txt.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36',
   # 'Content-Type': 'application/json;charset=UTF-8',
   'Origin': 'https://ai.meiyeyanjiu.com',
   'Sec-Fetch-Site': 'same-origin',

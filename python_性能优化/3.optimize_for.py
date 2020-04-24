@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 11:56
+# @Time    : 2020/4.txt/10 11:56
 # @Author  : Mqz
-# @FileName: 3.optimize_for.py
+# @FileName: 3.txt.optimize_for.py
 """
 优化循环
 对循环的优化所遵循的原则是尽量减少循环过程中的计算量，

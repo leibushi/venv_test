@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 15:12
+# @Time    : 2020/4.txt/2.txt 15:12
 # @Author  : Mqz
-# @FileName: 2-selenium_proxy.py
+# @FileName: 2.txt-selenium_proxy.py
 from selenium import webdriver
 import time
 proxy = '58.218.200.228:5505'

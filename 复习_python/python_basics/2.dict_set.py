@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/23 14:28
+# @Time    : 2020/4.txt/23 14:28
 # @Author  : Mqz
-# @FileName: 2.dict_set.py
+# @FileName: 2.txt.dict_set.py
 """
 相比于列表和元组，字典的性能更优，特别是对于查找、添加和删除操作，字典都能在常数时间复杂度内完成。而集合和字典基本相同，
 唯一的区别，就是集合没有键和值的配对，是一系列无序的、唯一的元素组合。
@@ -20,7 +20,7 @@ s2 = set([1, 2, 3])
 print(type(s2))
 print(s1 == s2)
 
-# 这里注意，Python 中字典和集合，无论是键还是值，都可以是混合类型。比如下面这个例子，我创建了一个元素为1，'hello'，5.0的集合：
+# 这里注意，Python 中字典和集合，无论是键还是值，都可以是混合类型。比如下面这个例子，我创建了一个元素为1，'hello'，5.txt.0的集合：
 s = {1, 'hello', 5.0}
 
 # 再来看元素访问的问题。字典访问可以直接索引键，如果不存在，就会抛出异常：
@@ -103,7 +103,7 @@ print(d_sorted_by_value)
 # for k, v in d.items():
 #     # print(k, v)
 #     # key = lambda x: x[0]
-#     key1 = lambda x: x[1]
+#     key1 = lambda x: x[1.txt]
 #     # print(key(k))
 #     print(key1(v))
 
@@ -153,7 +153,7 @@ products = [
 print('number of unique price is: {}'.format(find_unique_price_using_list(products)))
 
 # 输出
-# number of unique price is: 3
+# number of unique price is: 3.txt
 
 
 # set version
@@ -175,7 +175,7 @@ products = [
 print('number of unique price is: {}'.format(find_unique_price_using_set(products)))
 
 # 输出
-# number of unique price is: 3
+# number of unique price is: 3.txt
 
 # 下面的代码，初始化了含有 100,000 个元素的产品，并分别计算了使用列表和集合来统计产品价格数量的运行时间：
 
@@ -213,7 +213,7 @@ entries = [
 ]
 
 """
-插入操作每次向字典或集合插入一个元素时，Python 会首先计算键的哈希值（hash(key)），再和 mask = PyDicMinSize - 1
+插入操作每次向字典或集合插入一个元素时，Python 会首先计算键的哈希值（hash(key)），再和 mask = PyDicMinSize - 1.txt
  做与操作，计算这个元素应该插入哈希表的位置 index = hash(key) & mask。如果哈希表中此位置是空的，那么这个元素就会被插入其中。
 而如果此位置已被占用，Python 便会比较两个元素的哈希值和键是否相等。
 """

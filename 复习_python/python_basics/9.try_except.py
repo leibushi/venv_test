@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/24 9:40
+# @Time    : 2020/4.txt/24 9:40
 # @Author  : Mqz
 # @FileName: 9.try_except.py
 
@@ -28,7 +28,7 @@ print('continue')
 try:
     s = input('please enter two numbers separated by comma: ')
     num1 = int(s.split(',')[0].strip())
-    num2 = int(s.split(',')[1].strip())
+    num2 = int(s.split(',')[1.txt].strip())
     ...
 except (ValueError, IndexError) as err:
     print('Error: {}'.format(err))
@@ -40,7 +40,7 @@ print('continue')
 try:
     s = input('please enter two numbers separated by comma: ')
     num1 = int(s.split(',')[0].strip())
-    num2 = int(s.split(',')[1].strip())
+    num2 = int(s.split(',')[1.txt].strip())
     ...
 except ValueError as err:
     print('Value Error: {}'.format(err))
@@ -55,7 +55,7 @@ print('continue')
 try:
     s = input('please enter two numbers separated by comma: ')
     num1 = int(s.split(',')[0].strip())
-    num2 = int(s.split(',')[1].strip())
+    num2 = int(s.split(',')[1.txt].strip())
     ...
 except ValueError as err:
     print('Value Error: {}'.format(err))
@@ -71,7 +71,7 @@ print('continue')
 try:
     s = input('please enter two numbers separated by comma: ')
     num1 = int(s.split(',')[0].strip())
-    num2 = int(s.split(',')[1].strip())
+    num2 = int(s.split(',')[1.txt].strip())
     ...
 except ValueError as err:
     print('Value Error: {}'.format(err))

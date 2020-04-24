@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 16:02
+# @Time    : 2020/4.txt/2.txt 16:02
 # @Author  : Mqz
 # @FileName: gui_spider.py
 import tkinter
@@ -34,5 +34,5 @@ button1.grid(row=2,column=1,sticky=E)
 #显示界面
 root.mainloop()
 # ://blog.csdn.net/weixin_43870646/article/details/104609873————————————————
-# # 版权声明：本文为CSDN博主「成都—爬虫工程师—杨洋」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+# # 版权声明：本文为CSDN博主「成都—爬虫工程师—杨洋」的原创文章，遵循 CC 4.txt.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 # # 原文链接：https

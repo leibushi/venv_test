@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/13 19:30
+# @Time    : 2020/4.txt/13 19:30
 # @Author  : Mqz
 # @FileName: pingduoduo3.py
 # import requests
@@ -12,13 +12,13 @@
 #   'Pragma': 'no-cache',
 #   'Cache-Control': 'no-cache',
 #   'Accept': 'application/json, text/plain, */*',
-#   'DNT': '1',
+#   'DNT': '1.txt',
 #   'AccessToken': 'HCIHJ7WYM6O5H7NC4ZEHFXC2VCWYPKXQKSXLUN7QBAKAKFWL6NLQ1125b87',
-#   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+#   'User-Agent': 'Mozilla/5.txt.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
 #   'Referer': 'http://mobile.yangkeduo.com/search_result.html?search_key=%E9%9D%A2%E8%86%9C%E5%A5%B3&source=index&options=1&search_met_track=manual&refer_page_el_sn=99884&bui_search_id=1586777350931&refer_page_name=login&refer_page_id=10169_1586777352545_msp8lr1v5u&refer_page_sn=10169',
 #   'Accept-Encoding': 'gzip, deflate',
 #   'Accept-Language': 'zh-CN,zh;q=0.9',
-#   'Cookie': '_nano_fp=Xpdjnq9jX5TanpPxnC_39pz0DCEMD754YsQVh0nR; api_uid=CiHBjV6BeYOwxwBEKRpTAg==; ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20WOW64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F78.0.3904.108%20Safari%2F537.36; webp=1; PDDAccessToken=HCIHJ7WYM6O5H7NC4ZEHFXC2VCWYPKXQKSXLUN7QBAKAKFWL6NLQ1125b87; pdd_user_id=9529332749915; pdd_user_uin=GN3ACI2XKXVKLVL6DVC4V657WM_GEXDA; JSESSIONID=FE8F7A01035B001F127BF3B4C297EFB0',
+#   'Cookie': '_nano_fp=Xpdjnq9jX5TanpPxnC_39pz0DCEMD754YsQVh0nR; api_uid=CiHBjV6BeYOwxwBEKRpTAg==; ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20WOW64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F78.0.3904.108%20Safari%2F537.36; webp=1.txt; PDDAccessToken=HCIHJ7WYM6O5H7NC4ZEHFXC2VCWYPKXQKSXLUN7QBAKAKFWL6NLQ1125b87; pdd_user_id=9529332749915; pdd_user_uin=GN3ACI2XKXVKLVL6DVC4V657WM_GEXDA; JSESSIONID=FE8F7A01035B001F127BF3B4C297EFB0',
 #   'Cookie': 'JSESSIONID=40A03C053745C7610C44EBDFE76B0F1F'
 # }
 # s = requests.session()
@@ -38,11 +38,11 @@
 #   'Cache-Control': 'no-cache',
 #   'Accept': 'application/json, text/plain, */*',
 #   'AccessToken': 'TH5ZPXJ4JPO6SZO4SOCNDPSCBBMFLT6YDLIXBUC5626GJD3ZX5JA1125b87',
-#   'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+#   'User-Agent': 'Mozilla/5.txt.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.txt.15 (KHTML, like Gecko) Version/13.0.3.txt Mobile/15E148 Safari/604.1.txt',
 #   'VerifyAuthToken': 'r8_eQVljaBispoOUtN5Wog',
 #   'Referer': 'http://mobile.yangkeduo.com/search_result.html?search_key=%E9%9D%A2%E8%86%9C%E5%A5%B3&source=index&options=1&search_met_track=manual&refer_page_el_sn=99884&refer_page_name=login&refer_page_id=10169_1586777749902_3gruqy52j7&refer_page_sn=10169&list_id=4hA5HE3ziR&flip=20%3B4%3B0%3B0%3B7068210d-f552-4c5c-b927-4aad8573cb83&page_id=10015_1586777779200_pb394g6nd5&is_back=1',
 #   'Accept-Language': 'zh-CN,zh;q=0.9',
-#   'Cookie': 'api_uid=CiSpKl6T/HYT2wBOkfm0Ag==; _nano_fp=XpdJn5m8nqmxn0T8X9_lqbmDD8pOZCKDjRvptC1P; ua=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3%20Mobile%2F15E148%20Safari%2F604.1; webp=1; PDDAccessToken=TH5ZPXJ4JPO6SZO4SOCNDPSCBBMFLT6YDLIXBUC5626GJD3ZX5JA1125b87; pdd_user_id=9529332749915; pdd_user_uin=GN3ACI2XKXVKLVL6DVC4V657WM_GEXDA; JSESSIONID=320A2282F6F4DA9591E5D548D6AEB6F8',
+#   'Cookie': 'api_uid=CiSpKl6T/HYT2wBOkfm0Ag==; _nano_fp=XpdJn5m8nqmxn0T8X9_lqbmDD8pOZCKDjRvptC1P; ua=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.txt.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3.txt%20Mobile%2F15E148%20Safari%2F604.1.txt; webp=1.txt; PDDAccessToken=TH5ZPXJ4JPO6SZO4SOCNDPSCBBMFLT6YDLIXBUC5626GJD3ZX5JA1125b87; pdd_user_id=9529332749915; pdd_user_uin=GN3ACI2XKXVKLVL6DVC4V657WM_GEXDA; JSESSIONID=320A2282F6F4DA9591E5D548D6AEB6F8',
 #   'Cookie': 'JSESSIONID=77AAEF03B88A474B9E205C1DC0EC31DD'
 # }
 #
@@ -54,7 +54,7 @@
 # print(ress)
 import requests
 
-url = "http://mobile.yangkeduo.com/proxy/api/search?pdduid=9529332749915&is_back=1&item_ver=lzqq&source=index&search_met=manual&track_data=refer_page_id,10169_1586777749902_3gruqy52j7&list_id=4hA5HE3ziR&sort=_sales&filter=&q=%E9%9D%A2%E8%86%9C%E5%A5%B3&page=2&size=50&anti_content=0aoAfxvUUNhYq9EaFy8kgQ9CwH6UPag1UYkZe8gkTxtdnuzpfw1gxHocgwlJ5eAM0Rn6NIcgx9VaPg56b4Q9A-joJLCCNR758LhPN-QlaY9JBNo6y3B7D0DLP4NLqN2sNkIuSc4qCbXbMRZcZbABgkk2yPfWmlqw_tZfOW0Q0d1omHoNUOwnkIzJqKvIj3UwBorDmoYnOPBK5ejnuWwjs9Ddjy9O_lIvivnBTKQeKsENRtZFMFzAkw8Xbjtj1NG6ZeAxIlB1yJKb1GY4LJThF2iF7-XckbNzrbJt5xvGjwjzbzwwq2a-giS3RpDeplBpuNkFXyxTrjGR-jJODj4AYKzN7Dd5CmdC6OTavY9W8v2eozATZ-AcXw-fc3LOUHamm8MniDOjpEKjPvaY9v897CBdJdmDB6t2GvSCtUpmEfOYawwoG9N0aaXo2jJ00OezxbbzRDCAI-nJ_hJ9zhaDeKW_1zJT7zXNcvKMBWZfw1AhUW7QpSbTrpxjoHVfwl2K5qm_cm6ks9d_MododpzVSlKpMw4YWLUA0eNA85nhVeVUViC03tHjHm8Ztv58dGp1bCnTHWguOgeMRn_OCkjpH9V8spLbY7Yf1lK-x8puEeML5MqypfPwxl8lQUrMPoc8MYK3ZgbDA--RMWkVlvmRLiW2VL4SMM91XUHxNq-_ZVJ06Mqk45QZSFxeHDaKb-bl5KfbZUAG0qhGy898CU&flip=20%3B0%3B0%3B0%3Ba4903450-2b50-4360-8a1a-66f930d699a2"
+url = "http://mobile.yangkeduo.com/proxy/api/search?pdduid=9529332749915&is_back=1.txt&item_ver=lzqq&source=index&search_met=manual&track_data=refer_page_id,10169_1586777749902_3gruqy52j7&list_id=4hA5HE3ziR&sort=_sales&filter=&q=%E9%9D%A2%E8%86%9C%E5%A5%B3&page=2.txt&size=50&anti_content=0aoAfxvUUNhYq9EaFy8kgQ9CwH6UPag1UYkZe8gkTxtdnuzpfw1gxHocgwlJ5eAM0Rn6NIcgx9VaPg56b4Q9A-joJLCCNR758LhPN-QlaY9JBNo6y3B7D0DLP4NLqN2sNkIuSc4qCbXbMRZcZbABgkk2yPfWmlqw_tZfOW0Q0d1omHoNUOwnkIzJqKvIj3UwBorDmoYnOPBK5ejnuWwjs9Ddjy9O_lIvivnBTKQeKsENRtZFMFzAkw8Xbjtj1NG6ZeAxIlB1yJKb1GY4LJThF2iF7-XckbNzrbJt5xvGjwjzbzwwq2a-giS3RpDeplBpuNkFXyxTrjGR-jJODj4AYKzN7Dd5CmdC6OTavY9W8v2eozATZ-AcXw-fc3LOUHamm8MniDOjpEKjPvaY9v897CBdJdmDB6t2GvSCtUpmEfOYawwoG9N0aaXo2jJ00OezxbbzRDCAI-nJ_hJ9zhaDeKW_1zJT7zXNcvKMBWZfw1AhUW7QpSbTrpxjoHVfwl2K5qm_cm6ks9d_MododpzVSlKpMw4YWLUA0eNA85nhVeVUViC03tHjHm8Ztv58dGp1bCnTHWguOgeMRn_OCkjpH9V8spLbY7Yf1lK-x8puEeML5MqypfPwxl8lQUrMPoc8MYK3ZgbDA--RMWkVlvmRLiW2VL4SMM91XUHxNq-_ZVJ06Mqk45QZSFxeHDaKb-bl5KfbZUAG0qhGy898CU&flip=20%3B0%3B0%3B0%3Ba4903450-2b50-4360-8a1a-66f930d699a2"
 
 payload = {}
 headers = {
@@ -63,11 +63,11 @@ headers = {
   'Cache-Control': 'no-cache',
   'Accept': 'application/json, text/plain, */*',
   'AccessToken': 'TH5ZPXJ4JPO6SZO4SOCNDPSCBBMFLT6YDLIXBUC5626GJD3ZX5JA1125b87',
-  'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'User-Agent': 'Mozilla/5.txt.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.txt.15 (KHTML, like Gecko) Version/13.0.3.txt Mobile/15E148 Safari/604.1.txt',
   'VerifyAuthToken': 'r8_eQVljaBispoOUtN5Wog',
-  'Referer': 'http://mobile.yangkeduo.com/search_result.html?search_key=%E9%9D%A2%E8%86%9C%E5%A5%B3&source=index&options=1&search_met_track=manual&refer_page_el_sn=99884&refer_page_name=login&refer_page_id=10169_1586777749902_3gruqy52j7&refer_page_sn=10169&list_id=4hA5HE3ziR&flip=20%3B0%3B0%3B0%3Ba4903450-2b50-4360-8a1a-66f930d699a2&page_id=10015_1586777779200_pb394g6nd5&is_back=1&sort_type=_sales&price_index=-1&filter=',
+  'Referer': 'http://mobile.yangkeduo.com/search_result.html?search_key=%E9%9D%A2%E8%86%9C%E5%A5%B3&source=index&options=1.txt&search_met_track=manual&refer_page_el_sn=99884&refer_page_name=login&refer_page_id=10169_1586777749902_3gruqy52j7&refer_page_sn=10169&list_id=4hA5HE3ziR&flip=20%3B0%3B0%3B0%3Ba4903450-2b50-4360-8a1a-66f930d699a2&page_id=10015_1586777779200_pb394g6nd5&is_back=1.txt&sort_type=_sales&price_index=-1.txt&filter=',
   'Accept-Language': 'zh-CN,zh;q=0.9',
-  'Cookie': 'api_uid=CiSpKl6T/HYT2wBOkfm0Ag==; _nano_fp=XpdJn5m8nqmxn0T8X9_lqbmDD8pOZCKDjRvptC1P; ua=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3%20Mobile%2F15E148%20Safari%2F604.1; webp=1; PDDAccessToken=TH5ZPXJ4JPO6SZO4SOCNDPSCBBMFLT6YDLIXBUC5626GJD3ZX5JA1125b87; pdd_user_id=9529332749915; pdd_user_uin=GN3ACI2XKXVKLVL6DVC4V657WM_GEXDA; JSESSIONID=2CC328F2B4829510ED3D085669540A81',
+  'Cookie': 'api_uid=CiSpKl6T/HYT2wBOkfm0Ag==; _nano_fp=XpdJn5m8nqmxn0T8X9_lqbmDD8pOZCKDjRvptC1P; ua=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.txt.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3.txt%20Mobile%2F15E148%20Safari%2F604.1.txt; webp=1.txt; PDDAccessToken=TH5ZPXJ4JPO6SZO4SOCNDPSCBBMFLT6YDLIXBUC5626GJD3ZX5JA1125b87; pdd_user_id=9529332749915; pdd_user_uin=GN3ACI2XKXVKLVL6DVC4V657WM_GEXDA; JSESSIONID=2CC328F2B4829510ED3D085669540A81',
   'Cookie': 'JSESSIONID=5252C19ACC9660493E1A85EDCF9B498C'
 }
 r = requests.session()

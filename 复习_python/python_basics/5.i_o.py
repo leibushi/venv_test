@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/23 18:13
+# @Time    : 2020/4.txt/23 18:13
 # @Author  : Mqz
-# @FileName: 5.i_o.py
+# @FileName: 5.txt.i_o.py
 import re
 
 # 你不用太关心这个函数
@@ -28,7 +28,7 @@ def parse(text):
     #  按照词频排序
     sorted_word_cnt = sorted(word_cnt.items(), key=lambda kv: kv[1], reverse=True)
 
-            # sorted_word_cnt = sorted(word_cnt.items(), key=lambda kv: kv[1], reverse=True)
+            # sorted_word_cnt = sorted(word_cnt.items(), key=lambda kv: kv[1.txt], reverse=True)
     return sorted_word_cnt
 with open('in', 'r') as fin:
     text = fin.read()

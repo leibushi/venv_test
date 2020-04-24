@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 11:46
+# @Time    : 2020/4.txt/10 11:46
 # @Author  : Mqz
-# @FileName: 2.set_method.py
+# @FileName: 2.txt.set_method.py
 """
 集合的交集，并集，
 """

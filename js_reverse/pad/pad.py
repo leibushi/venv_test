@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 11:12
+# @Time    : 2020/4.txt/10 11:12
 # @Author  : Mqz
 # @FileName: pad.py
 # https://www.tapd.cn/cloud_logins/login  TAPD登录
@@ -16,7 +16,7 @@ def encrypt(content):
 
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'User-Agent': 'Mozilla/5.txt.0 (Windows NT 6.1.txt) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
     'Referer': 'https://www.tapd.cn/cloud_logins/login'
 }
 

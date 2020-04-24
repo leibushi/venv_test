@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 15:55
+# @Time    : 2020/4.txt/2.txt 15:55
 # @Author  : Mqz
 # @FileName: douyin.py
 
@@ -27,7 +27,7 @@ class douyin():
 
         size = 0
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.3.2.1000 Chrome/30.0.1599.101 Safari/537.36"}
+            "User-Agent": "Mozilla/5.txt.0 (Windows NT 6.2.txt; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.txt.3.txt.2.txt.1000 Chrome/30.0.1599.101 Safari/537.36"}
         try:
             with closing(requests.get(video_url, headers=headers, stream=True, verify=False)) as response:
                 chunk_size = 1024
@@ -68,10 +68,10 @@ class douyin():
         headers = {
             'Proxy-Connection': 'keep-alive',
             'Host': 'v.douyin.com',
-            'Upgrade-Insecure-Requests': '1',
+            'Upgrade-Insecure-Requests': '1.txt',
             'Accept-Encoding': 'gzip, deflate',
             'Accept-Language': 'zh-CN,zh;q=0.9',
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36",
+            "User-Agent": "Mozilla/5.txt.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36",
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
         }
         req = requests.get(url=video_url, headers=headers, verify=False)
@@ -84,10 +84,10 @@ class douyin():
         headers = {
             'Proxy-Connection': 'keep-alive',
             'Host': 'www.iesdouyin.com',
-            'Upgrade-Insecure-Requests': '1',
+            'Upgrade-Insecure-Requests': '1.txt',
             'Accept-Encoding': 'gzip, deflate',
             'Accept-Language': 'zh-CN,zh;q=0.9',
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36",
+            "User-Agent": "Mozilla/5.txt.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36",
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
         }
         req = requests.get(url=newUrl, headers=headers, verify=False)
@@ -111,7 +111,7 @@ handel.video_downloader(url, name)
 def do_load_media(url, path):
     try:
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.3.2.1000 Chrome/30.0.1599.101 Safari/537.36"}
+            "User-Agent": "Mozilla/5.txt.0 (Windows NT 6.2.txt; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.txt.3.txt.2.txt.1000 Chrome/30.0.1599.101 Safari/537.36"}
         pre_content_length = 0
         # 循环接收视频数据
         while True:

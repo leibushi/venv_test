@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/3 14:42
+# @Time    : 2020/4.txt/3.txt 14:42
 # @Author  : Mqz
 # @FileName: demo15.py
 import requests
@@ -9,7 +9,7 @@ import aiohttp
 import asyncio
 
 session = requests.session()
-url = "http://127.0.0.1:5000"
+url = "http://127.0.0.1.txt:5000"
 
 Count = 100
 
@@ -62,8 +62,8 @@ def aiohttp_test():
 
 if __name__ == '__main__':
     # 循环的
-    # print(timeit.timeit(stmt=requests_test, number=1))
+    # print(timeit.timeit(stmt=requests_test, number=1.txt))
     # 使用线程池的
-    # print(timeit.timeit(stmt=pool_requests_test, number=1))
+    # print(timeit.timeit(stmt=pool_requests_test, number=1.txt))
     # 使用 aiohttp 的
     print(timeit.timeit(stmt=aiohttp_test, number=1))

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 13:39
+# @Time    : 2020/4.txt/10 13:39
 # @Author  : Mqz
 # @FileName: tieba_meitu.py
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 '''
 author:Herish
-datetime:2019/3/29 14:12
+datetime:2019/3.txt/29 14:12
 software: PyCharm
 description:
 '''
@@ -20,11 +20,11 @@ from hashlib import md5
 
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
-    'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+    'User-Agent': 'Mozilla/5.txt.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+    'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5.txt,en;q=0.3.txt',
     'Connection': 'keep-alive',
     'Accept-Encoding': 'gzip, deflate',
-    'Upgrade-Insecure-Requests': '1'
+    'Upgrade-Insecure-Requests': '1.txt'
 }
 
 UNIT_SIZE = 600  # 高
@@ -35,8 +35,8 @@ class BaiduTiebaPhoto:
     def __init__(self):
         self.url = 'https://tieba.baidu.com/p/5033202671'
         self.datas = []
-        self.fpath = "D:/360安全浏览器下载\spider_file/1"
-        self.new_fpath = "D:/360安全浏览器下载\spider_file/2/"
+        self.fpath = "D:/360安全浏览器下载\spider_file/1.txt"
+        self.new_fpath = "D:/360安全浏览器下载\spider_file/2.txt/"
         self.photoWall_fpath = "E:/PycharmWspace/yeayee/data/baidu_img2.0/photoWall/"
 
     # 获取页面详情
@@ -53,7 +53,7 @@ class BaiduTiebaPhoto:
         photo_urls = []
         text = self.getText(url)
 
-        # 1,利用lxml进行匹配
+        # 1.txt,利用lxml进行匹配
         html = etree.HTML(text)
         results = html.xpath('//img[@class="BDE_Image"]/@src')
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/13 13:49
+# @Time    : 2020/4.txt/13 13:49
 # @Author  : Mqz
 # @FileName: pingduoduo.py
 # import requests
@@ -12,22 +12,22 @@ import requests
 
 url = "https://mobile.yangkeduo.com/proxy/api/api/jinbao/h5_weak_auth/goods/query_goods_list_by_opt_id_c_v2?pdduid=0"
 
-payload = "{\"pid\":\"2_126411416\",\"cpsSign\":\"CM_200115_2_126411416_532df979b6f32d755e91de2efc378f02\",\"optId\":-1,\"pageNum\":2,\"pageSize\":10,\"hasCoupon\":null,\"rangeItems\":null,\"listId\":\"1586772889844_c736413c67b8f84d729c314dae2cd98d\",\"recListId\":\"mobile-avengers-cms-mall_-1_rejn0zlmyxflhy26\"}"
+payload = "{\"pid\":\"2_126411416\",\"cpsSign\":\"CM_200115_2_126411416_532df979b6f32d755e91de2efc378f02\",\"optId\":-1.txt,\"pageNum\":2.txt,\"pageSize\":10,\"hasCoupon\":null,\"rangeItems\":null,\"listId\":\"1586772889844_c736413c67b8f84d729c314dae2cd98d\",\"recListId\":\"mobile-avengers-cms-mall_-1_rejn0zlmyxflhy26\"}"
 headers = {
   'authority': 'mobile.yangkeduo.com',
   'pragma': 'no-cache',
   'cache-control': 'no-cache',
   'accept': 'application/json, text/plain, */*',
   'origin': 'https://mobile.yangkeduo.com',
-  'user-agent': 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36',
-  'dnt': '1',
+  'user-agent': 'Mozilla/5.txt.0 (Linux; Android 5.txt.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36',
+  'dnt': '1.txt',
   'content-type': 'application/json;charset=UTF-8',
   'sec-fetch-site': 'same-origin',
   'sec-fetch-mode': 'cors',
-  'referer': 'https://mobile.yangkeduo.com/duo_cms_mall.html?keyword=%E9%9D%A2%E8%86%9C%E5%A5%B3&ddjb_from=pc&pid=2_126411416&cpsSign=CM_200115_2_126411416_532df979b6f32d755e91de2efc378f02&duoduo_type=2&',
+  'referer': 'https://mobile.yangkeduo.com/duo_cms_mall.html?keyword=%E9%9D%A2%E8%86%9C%E5%A5%B3&ddjb_from=pc&pid=2_126411416&cpsSign=CM_200115_2_126411416_532df979b6f32d755e91de2efc378f02&duoduo_type=2.txt&',
   'accept-encoding': 'gzip, deflate, br',
   'accept-language': 'zh-CN,zh;q=0.9',
-  'cookie': '_nano_fp=Xpdjnq9jX5TanpPxnC_39pz0DCEMD754YsQVh0nR; api_uid=CiHBjV6BeYOwxwBEKRpTAg==; mobile-avengers-cms-mall=rejn0zlmyxflhy26; ua=Mozilla%2F5.0%20(Linux%3B%20Android%205.0%3B%20SM-G900P%20Build%2FLRX21T)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F78.0.3904.108%20Mobile%20Safari%2F537.36; webp=1; JSESSIONID=FD8642FF95294ADAE0A6EE07EB2885F1',
+  'cookie': '_nano_fp=Xpdjnq9jX5TanpPxnC_39pz0DCEMD754YsQVh0nR; api_uid=CiHBjV6BeYOwxwBEKRpTAg==; mobile-avengers-cms-mall=rejn0zlmyxflhy26; ua=Mozilla%2F5.0%20(Linux%3B%20Android%205.0%3B%20SM-G900P%20Build%2FLRX21T)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F78.0.3904.108%20Mobile%20Safari%2F537.36; webp=1.txt; JSESSIONID=FD8642FF95294ADAE0A6EE07EB2885F1',
   'Content-Type': 'text/plain'
 }
 
@@ -47,16 +47,16 @@ headers = {
   'pragma': 'no-cache',
   'cache-control': 'no-cache',
   'accesstoken': '',
-  'dnt': '1',
-  'user-agent': 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36',
+  'dnt': '1.txt',
+  'user-agent': 'Mozilla/5.txt.0 (Linux; Android 5.txt.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36',
   'content-type': 'application/x-www-form-urlencoded;charset=UTF-8',
   'accept': '*/*',
   'sec-fetch-site': 'same-origin',
   'sec-fetch-mode': 'cors',
-  'referer': 'https://mobile.yangkeduo.com/duo_cms_mall.html?keyword=%E9%9D%A2%E8%86%9C%E5%A5%B3&ddjb_from=pc&pid=2_126411416&cpsSign=CM_200115_2_126411416_532df979b6f32d755e91de2efc378f02&duoduo_type=2&',
+  'referer': 'https://mobile.yangkeduo.com/duo_cms_mall.html?keyword=%E9%9D%A2%E8%86%9C%E5%A5%B3&ddjb_from=pc&pid=2_126411416&cpsSign=CM_200115_2_126411416_532df979b6f32d755e91de2efc378f02&duoduo_type=2.txt&',
   'accept-encoding': 'gzip, deflate, br',
   'accept-language': 'zh-CN,zh;q=0.9',
-  'cookie': '_nano_fp=Xpdjnq9jX5TanpPxnC_39pz0DCEMD754YsQVh0nR; api_uid=CiHBjV6BeYOwxwBEKRpTAg==; mobile-avengers-cms-mall=rejn0zlmyxflhy26; ua=Mozilla%2F5.0%20(Linux%3B%20Android%205.0%3B%20SM-G900P%20Build%2FLRX21T)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F78.0.3904.108%20Mobile%20Safari%2F537.36; webp=1; JSESSIONID=7E2FA64900D079FBC7B8B096433BB0CE',
+  'cookie': '_nano_fp=Xpdjnq9jX5TanpPxnC_39pz0DCEMD754YsQVh0nR; api_uid=CiHBjV6BeYOwxwBEKRpTAg==; mobile-avengers-cms-mall=rejn0zlmyxflhy26; ua=Mozilla%2F5.0%20(Linux%3B%20Android%205.0%3B%20SM-G900P%20Build%2FLRX21T)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F78.0.3904.108%20Mobile%20Safari%2F537.36; webp=1.txt; JSESSIONID=7E2FA64900D079FBC7B8B096433BB0CE',
   'Cookie': 'JSESSIONID=5FF9EAF3F2803E450FB362B13B514D84'
 }
 

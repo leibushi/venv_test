@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 15:56
+# @Time    : 2020/4.txt/2.txt 15:56
 # @Author  : Mqz
 # @FileName: tools.py
 
@@ -28,7 +28,7 @@ gIpList = []
 gStatusCode = ''
 gUsername = ''
 
-header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+header = {'User-Agent': 'Mozilla/5.txt.0 (Windows NT 10.0; Win64; x64) '
                         'AppleWebKit/537.36 (KHTML, like Gecko) '
                         'Chrome/64.0.3282.186 Safari/537.36'}
 
@@ -152,22 +152,22 @@ def payProxieIpsUpdate(httpType):
     if 'zhimacangku' in gIpLink:  #
         # 判断是需要哪种代理ip
         if httpType == 'http':
-            if 'port=2' in gIpLink:  # port  代表IP协议（1:HTTP 2:SOCK5 11:HTTPS ）
-                gIpLink = gIpLink.replace('port=2', 'port=1')
+            if 'port=2.txt' in gIpLink:  # port  代表IP协议（1.txt:HTTP 2.txt:SOCK5 11:HTTPS ）
+                gIpLink = gIpLink.replace('port=2.txt', 'port=1.txt')
             if 'port=11' in gIpLink:
-                gIpLink.replace('port=3', 'port=1')
+                gIpLink.replace('port=3.txt', 'port=1.txt')
         else:  # https
-            if 'port=1' in gIpLink:  # port  代表IP协议（1:HTTP 2:SOCK5 11:HTTPS ）
-                gIpLink.replace('port=1', 'port=2')
+            if 'port=1.txt' in gIpLink:  # port  代表IP协议（1.txt:HTTP 2.txt:SOCK5 11:HTTPS ）
+                gIpLink.replace('port=1.txt', 'port=2.txt')
             if 'port=11' in gIpLink:
-                gIpLink.replace('port=11', 'port=2')
+                gIpLink.replace('port=11', 'port=2.txt')
         # 修改返回IP的数据格式，这里使用txt
-        if 'type=2' in gIpLink:  # type数据格式（1TXT 2JSON 3html）
-            gIpLink = gIpLink.replace('type=2', 'type=1')
-        if 'type=3' in gIpLink:
-            gIpLink.replace('type=3', 'type=1')
-        if 'num=1' in gIpLink:  # 一次性获取的IP个数设置为20
-            gIpLink = gIpLink.replace('num=1', 'num=20')
+        if 'type=2.txt' in gIpLink:  # type数据格式（1TXT 2JSON 3html）
+            gIpLink = gIpLink.replace('type=2.txt', 'type=1.txt')
+        if 'type=3.txt' in gIpLink:
+            gIpLink.replace('type=3.txt', 'type=1.txt')
+        if 'num=1.txt' in gIpLink:  # 一次性获取的IP个数设置为20
+            gIpLink = gIpLink.replace('num=1.txt', 'num=20')
         # 获取一批量ip，并存于全局变量
         r = requests.get(gIpLink)
         ipStr = r.text
@@ -201,7 +201,7 @@ def payProxieIpsUpdate(httpType):
         if 'orderno' in gIpLink:
             p = gIpLink.find('orderno') + len('orderno=')
             orderno = gIpLink[p: gIpLink.find('&', p)]
-        fullLink = 'http://api.xdaili.cn/xdaili-api/greatRecharge/getGreatIp?spiderId=' + spiderId + '&orderno=' + orderno + '&returnType=1&count=15'
+        fullLink = 'http://api.xdaili.cn/xdaili-api/greatRecharge/getGreatIp?spiderId=' + spiderId + '&orderno=' + orderno + '&returnType=1.txt&count=15'
         # 获取一批量ip，并存于全局变量
         r = requests.get(fullLink)
         ipStr = r.text
@@ -291,9 +291,9 @@ def payProxieIpGet_old(httpType):
     isGetIpSucess = True
     iCirclMax = 50  # 最多循环5次获取
     circleIndex = 0
-    gIpLink = 'http://webapi.http.zhimacangku.com/getip?num=1&type=1&pro=&city=0&yys=0&port=1&pack=25657&ts=0&ys=0&cs=0&lb=1&sb=0&pb=4&mr=1&regions='
+    gIpLink = 'http://webapi.http.zhimacangku.com/getip?num=1.txt&type=1.txt&pro=&city=0&yys=0&port=1.txt&pack=25657&ts=0&ys=0&cs=0&lb=1.txt&sb=0&pb=4.txt&mr=1.txt&regions='
     """  Ip的格式是这样的：
-    http://webapi.http.zhimacangku.com/getip?num=1&type=1&pro=&city=0&yys=0&port=1&time=1&ts=0&ys=0&cs=0&lb=1&sb=0&pb=4&mr=1&regions=
+    http://webapi.http.zhimacangku.com/getip?num=1.txt&type=1.txt&pro=&city=0&yys=0&port=1.txt&time=1.txt&ts=0&ys=0&cs=0&lb=1.txt&sb=0&pb=4.txt&mr=1.txt&regions=
     """
     ipDict = {}
 
@@ -570,7 +570,7 @@ articleBody ='hello'
 articleTitle = 'hello'
 deviceid = 'ab56b4d92b40713acc5af89985d4b786'
 uid = '6611942773'
-str1 ="act=1&allow_comment=1&allow_repost=1&appid=2&appver=3.0.2&article_body=" + articleBody + "&article_title="+articleTitle 
+str1 ="act=1.txt&allow_comment=1.txt&allow_repost=1.txt&appid=2.txt&appver=3.txt.0.2.txt&article_body=" + articleBody + "&article_title="+articleTitle 
 str2 = "&chno=515_112&class_id=0&deviceid=" + deviceid + "&is_secret=0&is_to_weibo=0&login_uid=" +uid 
 str3 = "&signkey=e3eb41c951f264a6daa16b6e4367e829&sort_id=117"
 body = str1 + str2 + str3

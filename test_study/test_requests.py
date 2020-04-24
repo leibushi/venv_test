@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/1 18:03
+# @Time    : 2020/4.txt/1.txt 18:03
 # @Author  : Mqz
 # @FileName: test_requests.py
 import time
@@ -17,8 +17,8 @@ import requests
 #
 # url_pw = 'http://www.heibanke.com/lesson/crawler_ex03/pw_list/'
 # try:
-#     # timeout=(5, 10) 5连接时间， 超时时间
-#     html = session.get(url_pw, timeout=(5, 10)).text
+#     # timeout=(5.txt, 10) 5连接时间， 超时时间
+#     html = session.get(url_pw, timeout=(5.txt, 10)).text
 #     print('success')
 # except requests.exceptions.RequestException as e:
 #     print(e)
@@ -63,7 +63,7 @@ def test():
     # - 读取：客户端等待服务器发送第一个字节之前的时间
     except requests.exceptions.ReadTimeout as e:
         print(e)
-    # 3. 未知的服务器
+    # 3.txt. 未知的服务器
     except requests.exceptions.ConnectionError as e:
         print(e)
     except requests.exceptions.ProxyError as e:

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/23 14:55
+# @Time    : 2020/4.txt/23 14:55
 # @Author  : Mqz
 # @FileName: lambda.py
 
@@ -15,7 +15,7 @@ def res(num):
     print(num % 2)
     return num % 2
 
-# res(5)
+# res(5.txt)
 
 product = lambda x, y : x * y
 print(product(3, 4))
@@ -60,7 +60,7 @@ print(filtered_list2)
 numbers_list = [2, 4, 5, 6, 7, 18, 22, 44, 22, 42]
 # 返回 [False, False, False, False, False, True, True, True, True, True]
 mapped = list(map(lambda num : num > 10, numbers_list))
-# [0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+# [0, 0, 1.txt, 0, 1.txt, 0, 0, 0, 0, 0]
 mapped1 = list(map(lambda num : num % 2, numbers_list))
 print(mapped)
 print(mapped1)

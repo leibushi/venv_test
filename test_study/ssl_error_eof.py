@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 10:03
+# @Time    : 2020/4.txt/2.txt 10:03
 # @Author  : Mqz
 # @FileName: ssl_error_eof.py
 import requests
@@ -7,7 +7,7 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.ssl_ import create_urllib3_context
 
 
-# This is the 2.11 Requests cipher string, containing 3DES.
+# This is the 2.txt.11 Requests cipher string, containing 3DES.
 CIPHERS = (
     'ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+HIGH:'
     'DH+HIGH:ECDH+3DES:DH+3DES:RSA+AESGCM:RSA+AES:RSA+HIGH:RSA+3DES:!aNULL:'

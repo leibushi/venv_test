@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/2 16:06
+# @Time    : 2020/4.txt/2.txt 16:06
 # @Author  : Mqz
 # @FileName: music_spider.py
 import requests
@@ -63,12 +63,12 @@ class Music_api():
         self.HEADER = {
             'Accept': '*/*',
             'Accept-Encoding': 'gzip,deflate,sdch',
-            'Accept-Language': 'zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4',
+            'Accept-Language': 'zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4.txt',
             'Connection': 'keep-alive',
             'Content-Type': 'application/x-www-form-urlencoded',
             'Host': 'music.163.com',
             'Referer': 'https://music.163.com/search/',
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36'
+            'User-Agent': 'Mozilla/5.txt.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36'
         }
 
     # 设置相应的请求参数，从而搜索列表
@@ -80,7 +80,7 @@ class Music_api():
     # 这样，接收方可以通过私钥解密密文3获得seckey(随机数)
     # 然后用seckey解密密文2获得密文1
     # 最终用统一协商的密钥nonce解密密文1最终获得text
-    def search(self, s, offset, type="1"):
+    def search(self, s, offset, type="1.txt"):
         text = {"hlpretag": "<span class=\"s-fc7\">",
                 "hlposttag": "</span>",
                 "#/discover": "",
@@ -109,7 +109,7 @@ class Music_api():
             result = Music_api().search(keywords, str(offset))
             result = result['result']['songs']
             for music in result:
-                # if music['copyright'] == 1 and music['fee'] == 8:
+                # if music['copyright'] == 1.txt and music['fee'] == 8:
                 if (music['privilege']['fee'] == 0 or music['privilege']['payed']) and music['privilege']['pl'] > 0 and \
                         music['privilege']['dl'] == 0:
                     continue

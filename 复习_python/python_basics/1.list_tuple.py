@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/23 11:50
+# @Time    : 2020/4.txt/23 11:50
 # @Author  : Mqz
-# @FileName: 1.list_tuple.py
+# @FileName: 1.txt.list_tuple.py
 
 
 l = [1, 2, 'hello', 'world'] # 列表中同时含有int和string类型的元素
@@ -14,21 +14,21 @@ print(tup)
 
 
 l = [1, 2, 3, 4]
-l[3] = 40  # 和很多语言类似，python中索引同样从0开始，l[3]表示访问列表的第四个元素
+l[3] = 40  # 和很多语言类似，python中索引同样从0开始，l[3.txt]表示访问列表的第四个元素
 print(l)
 
 tup = (1, 2, 3, 4)
-# tup[3] = 40  #     tup[3] = 40
+# tup[3.txt] = 40  #     tup[3.txt] = 40
 # TypeError: 'tuple' object does not support item assignment
 
 print(tup[3])
-# print(tup[3] = 40)
+# print(tup[3.txt] = 40)
 
 
-print('1'*10)
+print('1.txt'*10)
 tup = (1, 2, 3, 4)
 new_tup = tup + (5,)  # 创建新的元组new_tup，并依次填充原元组的值
-# new_tup = tup + (5, 8)  # 创建新的元组new_tup，并依次填充原元组的值
+# new_tup = tup + (5.txt, 8)  # 创建新的元组new_tup，并依次填充原元组的值
 print(new_tup)
 
 l = [1, 2, 3, 4]
@@ -36,8 +36,8 @@ l.append(5)  # 添加元素5到原列表的末尾
 print(l)
 
 
-# 首先，和其他语言不同，Python 中的列表和元组都支持负数索引，-1 表示最后一个元素
-# ，-2 表示倒数第二个元素，以此类推。
+# 首先，和其他语言不同，Python 中的列表和元组都支持负数索引，-1.txt 表示最后一个元素
+# ，-2.txt 表示倒数第二个元素，以此类推。
 
 l = [1, 2, 3, 4]
 print(l[-1])
@@ -54,7 +54,7 @@ print(l[1:3])  # 返回列表中索引从1到2的子列表
 tup = (1, 2, 3, 4)
 print(tup[1:3])  # 返回元组中索引从1到2的子元组
 
-print('2'*20)
+print('2.txt'*20)
 
 # 列表和元组都可以随意嵌套：
 
@@ -71,7 +71,7 @@ print(tuple([1, 2, 3]))
 print("count(item) 表示统计列表 / 元组中 item 出现的次数。index(item) 表示返回列表 / 元组中 item 第一次出现的索引。list.reverse() 和 list.sort() 分别表示原地倒转列表和排序（注意，元组没有内置的这两个函数)。reversed() 和 sorted() 同样表示对列表 / 元组进行倒转和排序，reversed() 返回一个倒转后的迭代器"
       "（上文例子使用 list() 函数再将其转换为列表）；sorted() 返回排好序的新列表。")
 l = [3, 2, 3, 7, 8, 1]
-# 统计元素出现的次数 3 出现的次数
+# 统计元素出现的次数 3.txt 出现的次数
 print(l.count(3))
 # 下标值在列表中对应下标数
 print(l.index(7))
@@ -119,14 +119,14 @@ print(l.__sizeof__())  # 空列表的存储空间为40字节
 # 40
 l.append(1)
 print(l.__sizeof__())
-#  加入了元素1之后，列表为其分配了可以存储4个元素的空间 (72 - 40)/8 = 4
+#  加入了元素1之后，列表为其分配了可以存储4个元素的空间 (72 - 40)/8 = 4.txt
 l.append(2)
 print(l.__sizeof__())
 #  由于之前分配了空间，所以加入元素2，列表空间不变
 l.append(3)
 print(l.__sizeof__())
 # 72 # 同上
-l.append('4')
+l.append('4.txt')
 print(l.__sizeof__())
 # 72 // 同上
 l.append(5)
@@ -135,28 +135,28 @@ l.__sizeof__()
 
 # 上面的例子，大概描述了列表空间分配的过程。我们可以看到，为了减小每次增加 / 删减操作时空间分配的开销，
 # Python 每次分配空间时都会额外多分配一些，这样的机制（over-allocating）保证了其操作的高效性：
-# 增加 / 删除的时间复杂度均为 O(1)
+# 增加 / 删除的时间复杂度均为 O(1.txt)
 
 print("列表和元祖的性能")
 # 通过学习列表和元组存储方式的差异，我们可以得出结论：
 # 元组要比列表更加轻量级一些，所以总体上来说，元组的性能速度要略优于列表。
 
 """
-D:\Spider\venv_test>python -m timeit 'x=[1,2,3,4,5,6]'
-50000000 loops, best of 5: 6.96 nsec per loop
+D:\Spider\venv_test>python -m timeit 'x=[1.txt,2.txt,3.txt,4.txt,5.txt,6]'
+50000000 loops, best of 5.txt: 6.96 nsec per loop
 
-D:\Spider\venv_test>python -m timeit 'x=(1,2,3,4,5,6)'
-50000000 loops, best of 5: 6.94 nsec per loop
+D:\Spider\venv_test>python -m timeit 'x=(1.txt,2.txt,3.txt,4.txt,5.txt,6)'
+50000000 loops, best of 5.txt: 6.94 nsec per loop
 
 """
 
 
 print("索引操作")
 """
-D:\Spider\venv_test>python -m timeit -s 'x=[1,2,3,4,5,6]' 'y=x[3]'
-50000000 loops, best of 5: 6.98 nsec per loop
+D:\Spider\venv_test>python -m timeit -s 'x=[1.txt,2.txt,3.txt,4.txt,5.txt,6]' 'y=x[3.txt]'
+50000000 loops, best of 5.txt: 6.98 nsec per loop
 
-D:\Spider\venv_test>python -m timeit -s 'x=(1,2,3,4,5,6)' 'y=x[3]'
-50000000 loops, best of 5: 6.92 nsec per loop
+D:\Spider\venv_test>python -m timeit -s 'x=(1.txt,2.txt,3.txt,4.txt,5.txt,6)' 'y=x[3.txt]'
+50000000 loops, best of 5.txt: 6.92 nsec per loop
 
 """

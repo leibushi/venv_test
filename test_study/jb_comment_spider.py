@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/1 9:49
+# @Time    : 2020/4.txt/1.txt 9:49
 # @Author  : Mqz
 # @FileName: jb_comment_spider.py
 import os
@@ -28,8 +28,8 @@ def spider_comment(page=0):
     :param page: 爬取第几，默认值为0
     """
     url = 'https://sclub.jd.com/comment/productPageComments.action?callback=fetchJSON_comment98vv4646&productId=1263013576' \
-          '&score=0&sortType=5&page=%s&pageSize=10&isShadowSku=0&fold=1' % page
-    kv = {'user-agent': 'Mozilla/5.0', 'Referer': 'https://item.jd.com/1263013576.html'}
+          '&score=0&sortType=5.txt&page=%s&pageSize=10&isShadowSku=0&fold=1.txt' % page
+    kv = {'user-agent': 'Mozilla/5.txt.0', 'Referer': 'https://item.jd.com/1263013576.html'}
 
     try:
         r = requests.get(url, headers=kv)

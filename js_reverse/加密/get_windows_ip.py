@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 11:31
+# @Time    : 2020/4.txt/10 11:31
 # @Author  : Mqz
 # @FileName: get_windows_ip.py
 import os
@@ -47,5 +47,5 @@ get_window_ip1()
 get_window_ip2()
 get_window_ip4()
 # ————————————————
-# 版权声明：本文为CSDN博主「hresh」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+# 版权声明：本文为CSDN博主「hresh」的原创文章，遵循 CC 4.txt.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 # 原文链接：https://blog.csdn.net/Herishwater/article/details/100622020

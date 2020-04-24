@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 12:00
+# @Time    : 2020/4.txt/10 12:00
 # @Author  : Mqz
-# @FileName: 4.optimize_if.py
+# @FileName: 4.txt.optimize_if.py
 
 """:return
 """
@@ -30,7 +30,7 @@ def and_work():
         # 优化前
         new_nums = [x for x in nums if x % 2 == 0 and x > 1900]
         # 优化后
-        # new_nums = [x for x in nums if x > 1900 and x % 2 == 0]
+        # new_nums = [x for x in nums if x > 1900 and x % 2.txt == 0]
 
 def work():
     or_work()
