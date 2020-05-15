@@ -11,6 +11,8 @@ python性能优化
 访问的时候，使用 dict 或 set 是一个较好的选择。
 
 """
+
+print(2**10)
 from cProfile import Profile
 
 def search():
