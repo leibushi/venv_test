@@ -1,0 +1,33 @@
+2020-04-10 16:40:38.218 | DEBUG    | __main__:<module>:21 - this is a debug message11
+2020-04-10 16:42:27.117 | DEBUG    | __main__:<module>:21 - this is a debug message11
+2020-04-10 16:42:27.117 | INFO     | __main__:<module>:56 - If you are using Python 3.6, prefer f-strings of course!
+2020-04-10 16:42:27.117 | ERROR    | __main__:<module>:62 - An error has been caught in function '<module>', process 'MainProcess' (12876), thread 'MainThread' (12440):
+Traceback (most recent call last):
+
+> File "D:/Spider/venv_test/common/loguru/loguru_logger.py", line 62, in <module>
+    my_function(0, 0, 0)
+    ©¸ <function my_function at 0x000001F9E76C6D08>
+
+  File "D:/Spider/venv_test/common/loguru/loguru_logger.py", line 60, in my_function
+    return 1 / (x + y + z)
+                ©¦   ©¦   ©¸ 0
+                ©¦   ©¸ 0
+                ©¸ 0
+
+ZeroDivisionError: division by zero
+2020-04-10 16:42:39.552 | DEBUG    | __main__:<module>:21 - this is a debug message11
+2020-04-10 16:42:39.553 | INFO     | __main__:<module>:56 - If you are using Python 3.6, prefer f-strings of course!
+2020-04-10 16:42:39.553 | ERROR    | __main__:<module>:62 - An error has been caught in function '<module>', process 'MainProcess' (4404), thread 'MainThread' (11928):
+Traceback (most recent call last):
+
+> File "D:/Spider/venv_test/common/loguru/loguru_logger.py", line 62, in <module>
+    my_function(0, 0, 0)
+    ©¸ <function my_function at 0x0000017579AE5D08>
+
+  File "D:/Spider/venv_test/common/loguru/loguru_logger.py", line 60, in my_function
+    return 1 / (x + y + z)
+                ©¦   ©¦   ©¸ 0
+                ©¦   ©¸ 0
+                ©¸ 0
+
+ZeroDivisionError: division by zero

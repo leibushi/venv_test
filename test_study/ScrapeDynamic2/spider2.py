@@ -22,13 +22,14 @@ TOTAL_PAGE = 10
 RESULTS_DIR = 'results'
 
 exists(RESULTS_DIR) or makedirs(RESULTS_DIR)
-
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-options.add_experimental_option('excludeSwitches', ['enable-automation'])
-options.add_experimental_option('useAutomationExtension', False)
-
-browser = webdriver.Chrome(options=options)
+# 不显示请求头
+# options = webdriver.ChromeOptions()
+# options.add_argument('--headless')
+# options.add_experimental_option('excludeSwitches', ['enable-automation'])
+# options.add_experimental_option('useAutomationExtension', False)
+#
+# browser = webdriver.Chrome(options=options)
+browser = webdriver.Chrome()
 wait = WebDriverWait(browser, TIME_OUT)
 
 

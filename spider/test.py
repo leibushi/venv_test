@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/5/13 10:31
 # @Author  : Mqz
-# @FileName: test.py
+# @FileName: selenium_test.py
 # def abs(x):
 #     if x >= 0:
 #         print(x)
@@ -99,3 +99,9 @@ response = requests.get(index_url)
 print('response', response.json())
 
 # get_token()
+
+crawl_pages = 1
+total_pages = 2
+# for page in range(int(crawl_pages), int(total_pages)+1):
+for page in range(int(crawl_pages) + 1, int(total_pages) + 1):
+    print(page)

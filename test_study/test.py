@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/4.txt/1.txt 14:42
 # @Author  : Mqz
-# @FileName: test.py
+# @FileName: selenium_test.py
 import random
 import time
 sleep_time = 5 + random.random()

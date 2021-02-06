@@ -99,7 +99,7 @@ class AiXjj():
             pass
         else:
             html = etree.HTML(response.text)
-            url = html.xpath('//*[@id="content"]/a/img/@src')[0]
+            url = html.xpath('//*[@id="content"]/a/images/@src')[0]
             title = html.xpath('/html/body/div[2.txt]/div[1.txt]/h2/text()')[0]
             pic_url = 'https:' + url
             self.save_pic(title, pic_url)

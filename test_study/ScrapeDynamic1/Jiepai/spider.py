@@ -78,7 +78,7 @@ def get_images(json):
                                 }
 
 def save_image(item):
-    img_path = 'img' + os.path.sep + item.get('title')
+    img_path = 'images' + os.path.sep + item.get('title')
     if not os.path.exists(img_path):
         os.makedirs(img_path) # 生成目录文件夹
     try:

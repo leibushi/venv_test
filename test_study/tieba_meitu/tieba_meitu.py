@@ -55,7 +55,7 @@ class BaiduTiebaPhoto:
 
         # 1.txt,利用lxml进行匹配
         html = etree.HTML(text)
-        results = html.xpath('//img[@class="BDE_Image"]/@src')
+        results = html.xpath('//images[@class="BDE_Image"]/@src')
 
         # 2利用Pyquery进行匹配
         # doc = pq(text)
@@ -68,7 +68,7 @@ class BaiduTiebaPhoto:
     def img_size(self, content):
         img = Image.open(BytesIO(content))
 
-        # width,height = img.size
+        # width,height = images.size
         return img.size
 
     #根据图片url下载图片

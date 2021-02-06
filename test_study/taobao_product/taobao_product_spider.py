@@ -55,11 +55,13 @@ def get_products():
     提取商品数据
     """
     html = browser.page_source
+    cookie = browser.get_cookies()
+    print(cookie)
     doc = pq(html)
     items = doc('#mainsrp-itemlist .items .item').items()
     for item in items:
         product = {
-            'image': item.find('.pic .img').attr('data-src'),
+            'image': item.find('.pic .images').attr('data-src'),
             'price': item.find('.price').text(),
             'deal': item.find('.deal-cnt').text(),
             'title': item.find('.title').text(),
