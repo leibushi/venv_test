@@ -21,6 +21,7 @@ cookie = browser.get_cookies()  # 获取浏览器cookies
 c = requests.cookies.RequestsCookieJar()
 for i in cookie:  # 添加cookie到CookieJar
     c.set(i["name"], i["value"])
+print(c)
 current_session.cookies.update(c)  # 更新session里的cookie
 
 res = current_session.get("http://www.dianping.com/shop/129879472/photos/tag-%E5%8F%91%E5%9E%8B%E7%A7%80",

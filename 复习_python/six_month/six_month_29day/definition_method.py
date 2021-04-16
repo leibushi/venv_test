@@ -104,7 +104,6 @@ def person3(name, age, *args, city, job):
 
 def person4(name, age, *, city='Beijing', job):
     print(name, age, city, job)
-
 person4('Jack', 24, job='Engineer1')
 
 

@@ -27,6 +27,7 @@ def data(page):
     response.raise_for_status()
     response.encoding = response.apparent_encoding
     job_json = response.json()
+    print(job_json)
     job_list = job_json['content']['positionResult']['result']
     csv_data = []
     for i in job_list:
